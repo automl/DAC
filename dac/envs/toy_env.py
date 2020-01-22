@@ -234,7 +234,7 @@ class SigmoidMultiActMultiValAction(ADPBench):
         return 1 / (1 + np.exp(-scaling * (x - inflection)))
 
     def __init__(self,
-                 n_steps: int=11,
+                 n_steps: int=10,
                  n_actions: int=2,
                  action_vals: tuple=(5, 10),
                  seed: bool=0,
