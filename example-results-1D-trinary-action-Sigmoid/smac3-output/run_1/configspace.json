@@ -1,0 +1,113 @@
+{
+  "hyperparameters": [
+    {
+      "name": "0",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "1",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "2",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "3",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "4",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "5",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "6",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "7",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "8",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "9",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0
+    },
+    {
+      "name": "env",
+      "type": "constant",
+      "value": "1D3M"
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.4.12",
+  "json_format_version": 0.1
+}

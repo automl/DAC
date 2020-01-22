@@ -1,0 +1,7 @@
+numpy
+gym
+chainerrl
+matplotlib
+seaborn
+pandas
+smac

@@ -1,0 +1,1 @@
+dac/train/train_chainer_agent_on_toy.py --eval-n-runs 10 --eval-interval 10 --checkpoint_frequency 1000 --outdir 1D-trinary-action-Sigmoid/DQN --seed 0 --scenario 1D3M --steps 100000

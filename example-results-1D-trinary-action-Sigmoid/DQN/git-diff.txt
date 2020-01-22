@@ -1,0 +1,25 @@
+diff --git a/README.md b/README.md
+index 1f6189c..bdd0566 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,18 @@
+ # DAC
+-Dynamic Algorithm Configuration
++Code/Supplementary for the ECAI2020 paper<BR>
++**Dynamic Algorithm Configuration:<BR>Laying the foundation of a new Framework**
++
++## Installation using Anaconda
++1. conda create -n dac python=3.7
++2. conda activate dac
++3. cat requirements.txt | xargs -L 1 -n 1 pip install
++4. python setup.py install
++5. (*optional*) conda install jupyter 
++
++## Example calls
++* Train 0.1-greedy tabular Q-learning on 1D-sigmoids with trinary actions for 10.000 steps:<BR>
++```python dac/train/train_other.py --seed 0 -r 1 -n 10000 --epsilon_decay const -e 0.1 -l 1. --env 1D3M --out-dir 1D-trinary-action-Sigmoid```
++* Train DDQN on 1D-sigmoids with trinary actions for 10<sup>6</sup> steps:<BR>
++```python dac/train/train_chainer_agent_on_toy.py --eval-n-runs 10 --eval-interval 10 --checkpoint_frequency 1000 --outdir 1D-trinary-action-Sigmoid/DQN --seed 0 --scenario 1D3M --steps 100000```
++
++We provide a jupyter notebook with which you can inspect your own runs or the example results provided in example-results-1D-trinary-action-Sigmoid
+\ No newline at end of file
