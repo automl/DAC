@@ -1,6 +1,6 @@
 # DAC
 Code/Supplementary for the ECAI2020 paper<BR>
-**Dynamic Algorithm Configuration:<BR>Laying the foundation of a new Framework**
+**Dynamic Algorithm Configuration:<BR>Foundation of a New Meta-Algorithmic Framework**
 
 If you used the presented benchmarks or framework in one of your research projects, please cite us:
 
